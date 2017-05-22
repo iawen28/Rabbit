@@ -9,6 +9,11 @@ const Users = db.define('Users', {
   profileImage: Sequelize.STRING,
   points: Sequelize.INTEGER,
   authID: Sequelize.STRING,
+  bestSoloThreeMi: Sequelize.FLOAT,
+  machineGoal: Sequelize.TEXT,
+  factors: Sequelize.STRING,
+  timeOfDay: Sequelize.STRING,
+  lastMachineGoal: Sequelize.DATE,
 });
 
 const Badges = db.define('Badges', {
